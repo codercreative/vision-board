@@ -1,0 +1,75 @@
+body {
+  background: #e8e8e8;
+}
+
+#vision-board {
+  margin: 15px auto;
+  height: 850px;
+  width: 1200px;
+  overflow: auto;
+  background: url("../img/background.png");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.block {
+  float: left;
+  box-sizing: border-box;
+  width: 400px;
+}
+
+.small-block {
+  height: 210px;
+  padding: 20px 40px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 70px 40px;
+}
+
+.center {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.right {
+  text-align: right;
+}
+
+.light-bg {
+  background: #fff;
+}
+
+.dark-bg {
+  background: transparent;
+}
+
+.highlight {
+  background-color: #fff44f;
+  padding: 0.5em;
+}
+
+strong {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* Central Square of Vision Board */
+
+.eye-bg {
+  background: #3b3b3b;
+  color: #fff;
+}
+
+.eye-title {
+  font-size: 30px;
+}
+
+.eye-marker {
+  font-family: "Permanent Marker", cursive;
+}
